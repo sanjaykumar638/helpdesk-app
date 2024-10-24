@@ -1,16 +1,15 @@
 {
   "name": "support-desk",
   "version": "1.0.0",
-  "description": "Support Ticket App",
+  "description": "Helpdesk App",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js --ignore client",
+    "server": "node backend/server.js --ignore client",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Mohammad Arif",
+  "author": "Sanjay Kumar",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
