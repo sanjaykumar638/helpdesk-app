@@ -90,12 +90,12 @@ Provided in the root of the project, a `.sample.env` for guidance.
 │       ├── app
 │       │   └── store.js
 │       ├── components
-│       │   ├── BackButton.jsx
-│       │   ├── Header.jsx
-│       │   ├── NoteItem.jsx
-│       │   ├── PrivateRoute.jsx
-│       │   ├── Spinner.jsx
-│       │   └── TicketItem.jsx
+│       │   ├── BackButton.js
+│       │   ├── Header.js
+│       │   ├── NoteItem.js
+│       │   ├── PrivateRoute.js
+│       │   ├── Spinner.js
+│       │   └── TicketItem.js
 │       ├── features
 │       │   ├── auth
 │       │   │   ├── authService.js
@@ -111,12 +111,12 @@ Provided in the root of the project, a `.sample.env` for guidance.
 │       ├── index.css
 │       ├── index.js
 │       ├── pages
-│       │   ├── Home.jsx
-│       │   ├── Login.jsx
-│       │   ├── NewTicket.jsx
-│       │   ├── Register.jsx
-│       │   ├── Ticket.jsx
-│       │   └── Tickets.jsx
+│       │   ├── Home.js
+│       │   ├── Login.js
+│       │   ├── NewTicket.js
+│       │   ├── Register.js
+│       │   ├── Ticket.js
+│       │   └── Tickets.js
 │       └── serviceWorker.js
 ├── node_modules
 ├── package-lock.json
