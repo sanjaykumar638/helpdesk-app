@@ -131,6 +131,16 @@ In order to run the backend & frontend servers using [concurrently](https://www.
 npm run dev
 ```
 
+### Run Backend
+```sh
+npm node server.js
+```
+
+### Run Frontend
+```sh
+npm start
+```
+
 This will automatically open the local development server at [http://localhost:3000](http://localhost:3000).
 
 The page will automatically reload if you make changes to the code.<br>
