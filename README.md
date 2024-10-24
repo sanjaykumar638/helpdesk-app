@@ -28,14 +28,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
   Node.js is a free, open-sourced, cross-platform JavaScript run-time environment that lets developers write command line tools and server-side scripts outside of a browser.
 * [Redux Toolkit](https://redux-toolkit.js.org/)
   The official, opinionated, batteries-included toolset for efficient Redux development.
-* [Postman](https://www.postman.com/)
-  Postman is an application used for API testing.
-
-
-### Deployed On
-* [HEROKU](https://heroku.com/)
-  
-  [Support Ticket App](https://support-desk-mern-arifmd.herokuapp.com/)
 
 ### Installation
 
@@ -164,7 +156,6 @@ Inside of `/backend/controllers/ticketController.js` are a collection of.
 - **POST** `/api/tickets` - Create a new ticket, requires a **URL-encoded** data in the **Body** containing key value of { product, description }
 - **GET** `/api/tickets/:id` - Get the particular ticket detail  while passing the right `Authorization` `Bearer Token`.
 - 
-[Postman](https://learning.postman.com/docs/sending-requests/requests/#sending-body-data)
 
 ### Build an application
 
@@ -176,30 +167,7 @@ npm run build
 
 This will produce an optimized build of your application in `build` folder.
 
-### Deploy your application
-
-In order to produce a ready-to-deploy version of your application to deploy to Heroku:
-
-```sh
-npm run deploy
-```
-
-This will produce a ready-to-deploy version of your application in `deploy` folder. 
-Now you can deploy your application by running few handful commands:
-
-```sh
-cd deploy
-heroku login
-git init
-git add *
-git commit -m "deploying my-app"
-heroku create my-app
-git push heroku master
-```
-And within a few seconds, your application will be live at [https://support-desk-mern-arifmd.herokuapp.com/](https://support-desk-mern-arifmd.herokuapp.com/).
-
 
 ## Author
 
 - **Sanjay Kumar G** - [Sanjay Github](https://github.com/sanjaykumar638)
-"# helpdesk-app" 
